@@ -1,0 +1,43 @@
+img {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  figcaption {
+    color: gold;
+  }
+  
+  h1, p {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    color: gold;
+  }
+  
+  h2, h3 {
+    font-family: Apple Chancery, cursive;
+    color: #F7B801;
+  }
+  
+  li {
+    color: gold;
+    font-family: URW Chancery L, cursive;
+  }
+  
+  hr {
+    background-color: gold;
+    padding: 2px;
+    border-color: gold;
+  }
+  
+  a:active {
+    color: blue;
+  }
+  
+  a:hover {
+    color: green;
+  }
