@@ -1,0 +1,62 @@
+header {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  html {
+    font-family: sans-sarif;
+  }
+  
+  header p {
+    padding: 5px;
+  }
+  
+  p {
+    padding: 2px;
+  }
+  
+  #navbar {
+    background: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-link {
+      display: block;
+      padding: 13px 30px;
+      border-bottom: 1px solid #10558d;
+      color: black;
+      font-size: 16px;
+      position: relative;
+      text-align: center;
+  }
+  
+  
+  #main-doc {
+    padding-left: 250px;
+  }
+  
+  #navbar header {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 17px;
+  }
+  
+  code {
+    background-color: gray;
+    padding: 5px;
+    font-size: 10px
+  }
+  
+  @media screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+  }
